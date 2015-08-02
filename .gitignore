@@ -21,6 +21,7 @@ build/
 bld/
 [Bb]in/
 [Oo]bj/
+*.tlog/
 
 # Visual Studo 2015 cache/options directory
 .vs/
@@ -42,6 +43,7 @@ dlldata.c
 *_p.c
 *_i.h
 *.ilk
+*.idb
 *.meta
 *.obj
 *.pch

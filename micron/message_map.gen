@@ -1,0 +1,137 @@
+// Message map macros.
+//
+// Do not edit: generated from exifpro.micron\micron\message_map.inp
+
+
+#define ON_WM_SIZE_(fn)				.add_<WM_SIZE, ThisClass>((fn))
+#define ON_WM_SIZE()				ON_WM_SIZE_(&ThisClass::OnSize)
+
+#define ON_WM_SIZING_(fn)			.add_<WM_SIZING, ThisClass>((fn))
+#define ON_WM_SIZING()				ON_WM_SIZING_(&ThisClass::OnSizing)
+
+#define ON_WM_NCCALCSIZE_(fn)		.add_<WM_NCCALCSIZE, ThisClass>((fn))
+#define ON_WM_NCCALCSIZE()			ON_WM_NCCALCSIZE_(&ThisClass::OnNcCalcSize)
+
+#define ON_WM_WINDOWPOSCHANGED_(fn)	.add_<WM_WINDOWPOSCHANGED, ThisClass>((fn))
+#define ON_WM_WINDOWPOSCHANGED()	ON_WM_WINDOWPOSCHANGED_(&ThisClass::OnWindowPosChanged)
+
+#define ON_WM_WINDOWPOSCHANGING_(fn)	.add_<WM_WINDOWPOSCHANGING, ThisClass>((fn))
+#define ON_WM_WINDOWPOSCHANGING()	ON_WM_WINDOWPOSCHANGING_(&ThisClass::OnWindowPosChanging)
+
+#define ON_WM_PAINT_(fn)			.add_<WM_PAINT, ThisClass>((fn))
+#define ON_WM_PAINT()				ON_WM_PAINT_(&ThisClass::OnPaint)
+
+#define ON_WM_ERASEBKGND_(fn)		.add_<WM_ERASEBKGND, ThisClass>((fn))
+#define ON_WM_ERASEBKGND()			ON_WM_ERASEBKGND_(&ThisClass::OnEraseBkgnd)
+
+#define ON_WM_NCPAINT_(fn)			.add_<WM_NCPAINT, ThisClass>((fn))
+#define ON_WM_NCPAINT()				ON_WM_NCPAINT_(&ThisClass::OnNcPaint)
+
+#define ON_WM_CTLCOLOR_(fn)			.add_<WM_CTLCOLOR, ThisClass>((fn))
+#define ON_WM_CTLCOLOR()			ON_WM_CTLCOLOR_(&ThisClass::OnCtlColor)
+
+#define ON_WM_DRAWITEM_(fn)			.add_<WM_DRAWITEM, ThisClass>((fn))
+#define ON_WM_DRAWITEM()			ON_WM_DRAWITEM_(&ThisClass::OnDrawItem)
+
+#define ON_WM_MEASUREITEM_(fn)		.add_<WM_MEASUREITEM, ThisClass>((fn))
+#define ON_WM_MEASUREITEM()			ON_WM_MEASUREITEM_(&ThisClass::OnMeasureItem)
+
+#define ON_WM_CREATE_(fn)			.add_<WM_CREATE, ThisClass>((fn))
+#define ON_WM_CREATE()				ON_WM_CREATE_(&ThisClass::OnCreate)
+
+#define ON_WM_NCDESTROY_(fn)		.add_<WM_NCDESTROY, ThisClass>((fn))
+#define ON_WM_NCDESTROY()			ON_WM_NCDESTROY_(&ThisClass::OnNcDestroy)
+
+#define ON_WM_DESTROY_(fn)			.add_<WM_DESTROY, ThisClass>((fn))
+#define ON_WM_DESTROY()				ON_WM_DESTROY_(&ThisClass::OnDestroy)
+
+#define ON_WM_CLOSE_(fn)			.add_<WM_CLOSE, ThisClass>((fn))
+#define ON_WM_CLOSE()				ON_WM_CLOSE_(&ThisClass::OnClose)
+
+#define ON_WM_LBUTTONUP_(fn)		.add_<WM_LBUTTONUP, ThisClass>((fn))
+#define ON_WM_LBUTTONUP()			ON_WM_LBUTTONUP_(&ThisClass::OnLButtonUp)
+
+#define ON_WM_LBUTTONDOWN_(fn)		.add_<WM_LBUTTONDOWN, ThisClass>((fn))
+#define ON_WM_LBUTTONDOWN()			ON_WM_LBUTTONDOWN_(&ThisClass::OnLButtonDown)
+
+#define ON_WM_LBUTTONDBLCLK_(fn)	.add_<WM_LBUTTONDBLCLK, ThisClass>((fn))
+#define ON_WM_LBUTTONDBLCLK()		ON_WM_LBUTTONDBLCLK_(&ThisClass::OnLButtonDblClk)
+
+#define ON_WM_RBUTTONDOWN_(fn)		.add_<WM_RBUTTONDOWN, ThisClass>((fn))
+#define ON_WM_RBUTTONDOWN()			ON_WM_RBUTTONDOWN_(&ThisClass::OnRButtonDown)
+
+#define ON_WM_RBUTTONUP_(fn)		.add_<WM_RBUTTONUP, ThisClass>((fn))
+#define ON_WM_RBUTTONUP()			ON_WM_RBUTTONUP_(&ThisClass::OnRButtonUp)
+
+#define ON_WM_RBUTTONDBLCLK_(fn)	.add_<WM_RBUTTONDBLCLK, ThisClass>((fn))
+#define ON_WM_RBUTTONDBLCLK()		ON_WM_RBUTTONDBLCLK_(&ThisClass::OnRButtonDblClk)
+
+#define ON_WM_MBUTTONDOWN_(fn)		.add_<WM_MBUTTONDOWN, ThisClass>((fn))
+#define ON_WM_MBUTTONDOWN()			ON_WM_MBUTTONDOWN_(&ThisClass::OnMButtonDown)
+
+#define ON_WM_MBUTTONUP_(fn)		.add_<WM_MBUTTONUP, ThisClass>((fn))
+#define ON_WM_MBUTTONUP()			ON_WM_MBUTTONUP_(&ThisClass::OnMButtonUp)
+
+#define ON_WM_MOUSEMOVE_(fn)		.add_<WM_MOUSEMOVE, ThisClass>((fn))
+#define ON_WM_MOUSEMOVE()			ON_WM_MOUSEMOVE_(&ThisClass::OnMouseMove)
+
+#define ON_WM_MOUSEWHEEL_(fn)		.add_<WM_MOUSEWHEEL, ThisClass>((fn))
+#define ON_WM_MOUSEWHEEL()			ON_WM_MOUSEWHEEL_(&ThisClass::OnMouseWheel)
+
+#define ON_WM_KEYDOWN_(fn)			.add_<WM_KEYDOWN, ThisClass>((fn))
+#define ON_WM_KEYDOWN()				ON_WM_KEYDOWN_(&ThisClass::OnKeyDown)
+
+#define ON_WM_KEYUP_(fn)			.add_<WM_KEYUP, ThisClass>((fn))
+#define ON_WM_KEYUP()				ON_WM_KEYUP_(&ThisClass::OnKeyUp)
+
+#define ON_WM_ONCHAR_(fn)			.add_<WM_ONCHAR, ThisClass>((fn))
+#define ON_WM_ONCHAR()				ON_WM_ONCHAR_(&ThisClass::OnOnChar)
+
+#define ON_WM_GETDLGCODE_(fn)		.add_<WM_GETDLGCODE, ThisClass>((fn))
+#define ON_WM_GETDLGCODE()			ON_WM_GETDLGCODE_(&ThisClass::OnGetDlgCode)
+
+#define ON_WM_KILLFOCUS_(fn)		.add_<WM_KILLFOCUS, ThisClass>((fn))
+#define ON_WM_KILLFOCUS()			ON_WM_KILLFOCUS_(&ThisClass::OnKillFocus)
+
+#define ON_WM_TIMER_(fn)			.add_<WM_TIMER, ThisClass>((fn))
+#define ON_WM_TIMER()				ON_WM_TIMER_(&ThisClass::OnTimer)
+
+#define ON_WM_SETCURSOR_(fn)		.add_<WM_SETCURSOR, ThisClass>((fn))
+#define ON_WM_SETCURSOR()			ON_WM_SETCURSOR_(&ThisClass::OnSetCursor)
+
+#define ON_WM_HSCROLL_(fn)			.add_<WM_HSCROLL, ThisClass>((fn))
+#define ON_WM_HSCROLL()				ON_WM_HSCROLL_(&ThisClass::OnHScroll)
+
+#define ON_WM_VSCROLL_(fn)			.add_<WM_VSCROLL, ThisClass>((fn))
+#define ON_WM_VSCROLL()				ON_WM_VSCROLL_(&ThisClass::OnVScroll)
+
+#define ON_WM_INITMENUPOPUP_(fn)	.add_<WM_INITMENUPOPUP, ThisClass>((fn))
+#define ON_WM_INITMENUPOPUP()		ON_WM_INITMENUPOPUP_(&ThisClass::OnInitMenuPopup)
+
+#define ON_WM_CONTEXTMENU_(fn)		.add_<WM_CONTEXTMENU, ThisClass>((fn))
+#define ON_WM_CONTEXTMENU()			ON_WM_CONTEXTMENU_(&ThisClass::OnContextMenu)
+
+#define ON_WM_MOUSEACTIVATE_(fn)	.add_<WM_MOUSEACTIVATE, ThisClass>((fn))
+#define ON_WM_MOUSEACTIVATE()		ON_WM_MOUSEACTIVATE_(&ThisClass::OnMouseActivate)
+
+#define ON_WM_ACTIVATE_(fn)			.add_<WM_ACTIVATE, ThisClass>((fn))
+#define ON_WM_ACTIVATE()			ON_WM_ACTIVATE_(&ThisClass::OnActivate)
+
+#define ON_WM_ACTIVATEAPP_(fn)		.add_<WM_ACTIVATEAPP, ThisClass>((fn))
+#define ON_WM_ACTIVATEAPP()			ON_WM_ACTIVATEAPP_(&ThisClass::OnActivateApp)
+
+#define ON_WM_ENABLE_(fn)			.add_<WM_ENABLE, ThisClass>((fn))
+#define ON_WM_ENABLE()				ON_WM_ENABLE_(&ThisClass::OnEnable)
+
+#define ON_WM_NCHITTEST_(fn)		.add_<WM_NCHITTEST, ThisClass>((fn))
+#define ON_WM_NCHITTEST()			ON_WM_NCHITTEST_(&ThisClass::OnNcHitTest)
+
+#define ON_WM_SHOWWINDOW_(fn)		.add_<WM_SHOWWINDOW, ThisClass>((fn))
+#define ON_WM_SHOWWINDOW()			ON_WM_SHOWWINDOW_(&ThisClass::OnShowWindow)
+
+#define ON_WM_GETMINMAXINFO_(fn)	.add_<WM_GETMINMAXINFO, ThisClass>((fn))
+#define ON_WM_GETMINMAXINFO()		ON_WM_GETMINMAXINFO_(&ThisClass::OnGetMinMaxInfo)
+
+#define ON_WM_DROPFILES_(fn)		.add_<WM_DROPFILES, ThisClass>((fn))
+#define ON_WM_DROPFILES()			ON_WM_DROPFILES_(&ThisClass::OnDropFiles)
+

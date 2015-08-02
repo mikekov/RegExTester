@@ -1,0 +1,8 @@
+Download Boost libs 1.58.0 or newer.
+
+
+b2 architecture=x86 address-model=64 link=static threading=multi variant=debug --with-regex
+
+or
+
+b2 architecture=x86 address-model=64 link=static threading=multi variant=debug --with-regex include="C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt"
